@@ -1,6 +1,6 @@
 ## Keedio Shaded Parent
 
-Common maven parent for all thos projects requiring maven shade plugin to automatically relocate all dependencies.
+Common maven parent for all those projects requiring maven shade plugin to automatically relocate all dependencies.
 
 ### Usage
 Add the following parent to your project:

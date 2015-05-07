@@ -8,6 +8,12 @@
     <artifactId>keedio-shaded-parent</artifactId>
     <version>0.1.0</version>
     <packaging>pom</packaging>
+    <name>keedio shaded parent</name>
+    <description>
+        Common maven parent for all those projects requiring maven shade plugin to automatically relocate all dependencies.
+    </description>
+
+    <url>https://github.com/keedio/keedio-shaded-parent</url>
 
     <licenses>
         <license>
