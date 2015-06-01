@@ -41,8 +41,8 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>2.3</version>
+                <artifactId>maven-keedio-shade-plugin</artifactId>
+                <version>0.1</version>
                 <configuration>
                     <!-- put your configurations here -->
                     <relocations>
@@ -51,7 +51,7 @@
                             <shadedPattern>${groupId}/${artifactId}/</shadedPattern>
                             <excludes>
                                 <!-- excludes project artifacts, the '.' is important -->
-                                <exclude>*${groupId}.**</exclude>
+                                <exclude>org.slf4j.**</exclude>
                             </excludes>
                         </relocation>
                     </relocations>
